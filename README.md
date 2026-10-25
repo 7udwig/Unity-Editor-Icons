@@ -1,5 +1,7 @@
 # Unity Editor Icons
 
+**Open the site: <https://7udwig.github.io/Unity-Editor-Icons/>**
+
 A fast, searchable browser for the **built-in editor icons of the Unity Editor** (2022.3, 6000.0, 6000.3 - about 2,800 to 3,400 icons each).
 Pick a version, search, change the display size of all icons at once, open an icon to compare it at several sizes on a dark,
 light or checkerboard background, and copy its name or the C# line that uses it.
