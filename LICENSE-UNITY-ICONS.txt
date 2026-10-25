@@ -1,0 +1,20 @@
+The icons shown on this site are part of the Unity Editor
+(the built-in editor resources, as returned by EditorGUIUtility.IconContent).
+
+Copyright Unity Technologies. All rights reserved.
+
+The icons are NOT released under an open license. They are covered by
+Unity's own terms. The MIT license of this repository (see LICENSE) applies
+only to the code of this site, not to the icons. No rights to the icons are
+granted by this repository. They are shown only as a developer reference, so
+that people who work with the Unity Editor can find the name of an editor icon
+and the code that uses it.
+
+Changes made for this site: none to the image content. Identical files of
+different editor versions are stored only once and renamed to a short hash
+(img/<hash>.png).
+
+If Unity Technologies asks for removal, the icons will be removed.
+
+"Unity" is a trademark or registered trademark of Unity Technologies. This
+site is unofficial and not affiliated with or endorsed by Unity Technologies.

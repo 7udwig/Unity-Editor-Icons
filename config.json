@@ -1,0 +1,37 @@
+{
+  "engine": "Unity",
+  "title": "Unity editor icons",
+  "accent": "#4C8DF6",
+  "keyLabel": "Name",
+  "tint": [
+    {
+      "label": "UI Toolkit",
+      "code": "image.tintColor = new Color({rf}f, {gf}f, {bf}f);  // UI Toolkit Image: multiplies the icon colour (backgrounds: style.unityBackgroundImageTintColor)"
+    },
+    {
+      "label": "IMGUI",
+      "code": "GUI.contentColor = new Color({rf}f, {gf}f, {bf}f);  // IMGUI: multiplies the icon colour of buttons and labels (GUI.color also tints backgrounds)"
+    }
+  ],
+  "crossMajor": true,
+  "catField": "cat",
+  "noFile": true,
+  "snippets": [
+    {
+      "group": "code",
+      "from": "2022",
+      "label": "IconContent",
+      "code": "EditorGUIUtility.IconContent(\"{name}\")",
+      "note": "Returns a GUIContent for IMGUI, e.g. GUILayout.Button(EditorGUIUtility.IconContent(\"...\")) in an editor window or inspector; .image is the Texture2D. In the dark editor theme a plain name returns its d_ version if there is one (checked in the 2022.3 and 6000.3 editors), so use the plain name unless you want one fixed look."
+    },
+    {
+      "group": "code",
+      "from": "2022",
+      "needs": "ft",
+      "label": "FindTexture",
+      "code": "EditorGUIUtility.FindTexture(\"{name}\")",
+      "note": "Returns the Texture2D directly. It finds only part of the icons by name (this button is greyed out for the others, use IconContent there)."
+    }
+  ],
+  "footer": "Unofficial overview, not affiliated with or endorsed by Unity Technologies. Unity&reg; is a trademark of Unity Technologies. The editor icons are &copy; Unity Technologies and shown here only as a reference for Unity developers; they stay Unity's property and can be removed on request."
+}
